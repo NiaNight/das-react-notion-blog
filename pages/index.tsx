@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const NOTION_BLOG_ID =
-  process.env.NOTION_BLOG_ID || "1099525da7e5405c961706de56622ccd";
+  process.env.NOTION_BLOG_ID || "9c9d212bfebd43da85bd5042a8cc66d3";
 
 export type Post = { id: string; slug: string; title: string; date: string };
 
